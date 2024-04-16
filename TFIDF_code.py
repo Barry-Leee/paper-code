@@ -61,9 +61,9 @@ word_list = vector.get_feature_names_out()
 weight_list = tf_idf.toarray()
 
 for i in range(len(weight_list)):
-    with open('D:\E\..path of result.../wordweight_result.txt', 'a') as result2:
+    with open('D:\E\...path of result.../wordweight_result.txt', 'a') as result2:
         print("-------第", i + 1, "份文本的词语tf-idf权重------", file=result2)
     for j in range(len(word_list)):
-        with open('D:\E\work\PHD\paper\policy_evaluation\pyfenci\policy_all/wordweight_result.txt', 'a') as result2:
+        with open('D:\E\...path of result.../wordweight_result.txt', 'a') as result2:
             print(word_list[j], weight_list[i][j], file=result2)
 
